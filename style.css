@@ -1,0 +1,35 @@
+
+/* Add some basic styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: black;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 400px;
+}
+
+.bar {
+  width: 1%;
+  margin: 0 2px;
+  background-color: #007bff;
+  transition: height 0.5s;
+}
+
+.bar-comparing {
+  background-color: #ff6347; /* Red */
+}
+
+.bar-swapping {
+  background-color: #00ff7f; /* Green */
+}
+.btn {
+  padding: 1%;
+}
+.nav-item {
+  color: #00ff7f;
+}
